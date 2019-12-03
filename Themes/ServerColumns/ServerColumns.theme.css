@@ -1,0 +1,12 @@
+//META{"name":"ServerColumns","description":"Changes the Server List to a gridlike container to allow servers to be displayed in columns. Amount of columns can be set in the .theme.css file.","author":"ShasWHITE","version":"1.0.6","website":"https://github.com/ShasWHITE/BetterDiscordAddons-master/tree/master/BetterDiscordAddons-master/Themes/ServerColumns","source":"https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/ServerColumns/ServerColumns.theme.css"}*//{}
+
+@import url(https://ShasWHITE.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
+
+:root {
+	--columns:			3;							/* default:	3					(amount of servercolumns)																		*/
+	
+	--guildsize:		50;							/* default:	50					(serversize in pixel)																			*/
+	--guildgap:			3;							/* default:	3					(top/bottom gap between servers in pixel)														*/
+	
+	--aligndms:			0;							/* default:	0					(should DMs be aligned in columns: 0 = no, 1 = yes)												*/
+}
